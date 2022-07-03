@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster+Two|Pacifico');
+		*{
+		margin:0px;
+		padding:0px;
+		font-family:'Josefin sans',sans-serif;
+	}
+	.container
+	{
+		display:flex;
+		position:absolute;
+	    
+	
+        background-repeat: no-repeat;
+        height:900px;
+        width:100%;
+
+	}
+	.section1
+	{
+		width:700px;
+		height:100px;
+		border:1px solid red;
+		margin-top: 10px;
+	
+	}
+	.cname
+	{
+		font-size:60px;
+		font-family:'Lobster Two';
+		padding:0px;
+
+    }
+    .section2
+    {
+        display:inline-block;
+
+    }
+    .txtsearch
+    {
+		width:300px;
+		height:25px;
+		border:1px ridge black;
+	}
+	.txtsearch[placeholder]
+	{
+		padding-left:1%;
+	}
+	.btnsearch
+	{
+		width:50px;
+		height:25px;
+		background-color:#19e5e5;
+		border:0px;
+	}
+	.btn
+	{
+		width:50px;
+		height:25px;
+		display: inline-block;
+		background-color:#19e5e5;
+		margin:10px;
+
+	}
+	.section3
+	{
+		display:inline-block;
+	}
+	.nav
+	{
+		margin-top:5%;
+		width:900px;
+		height:5px;
+		border-radius:6px;
+		display:flex;
+		justify-content: center;
+		align-items:center;
+		margin-right:60px;
+		display:inline-block;
+
+	}
+	.menu
+	{
+        margin-top:10px;
+        width:250px;
+        height:50px;
+        padding-top:15px;
+        text-align:center;
+		/*padding:35px 35px 35px 35px;*/
+		text-decoration: none;
+		background-color: black;
+		color:white;
+		font-family:'Lobster Two';
+		font-size:25px;
+		box-shadow:10px 15px 50px black;
+	}
+	.menu:hover
+	{
+		background-color: orange;/*#1d9550;*/
+		box-shadow:none;
+	}
+	.navigation
+	{
+
+		width:100%;
+		height:63px;
+		background-color: #19e5e5;
+		border-radius:5px;
+		display:flex;
+		text-align:center;
+		margin-right:80px;
+	}
+	.Deal
+	{
+		margin-left:2%;
+        font-size:32px;
+        text-decoration: none;
+        padding-left:100px;
+        padding-top:12px;
+        color:black;
+        font-family:'Lobster Two';
+	}
+	.submenu
+	{
+		background-color:#ececfa;
+		display: block;
+		padding:15px 15px;
+		border-bottom:1px solid #a7a7ad;
+		padding-left:20px;
+		text-decoration: none;
+		color:black;
+		font-size:16px;
+	}
+	.submenu:hover
+	{
+		cursor:pointer;
+		background-color:#9afbfa;
+		box-shadow:none;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 section1">
+				<h1 class="cname">Plug <i class="fa fa-lightbulb-o" aria-hidden="true"></i> ins</h1>
+			</div>
+			<div class="col-md-9 section2">
+                <input type="text" placeholder="Search here " class="txtsearch"/>
+                <button type="button" class="btnsearch">Search</button>
+            </div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 section3">
+				<div class="navigation">
+				<!--<img src="" class="toggle"/>-->
+				<a href="Deal In" class="Deal">Deal In</a>
+			</div>
+			<div>
+				<a href="Philips" class="submenu">Philips</a>
+				<a href="O General" class="submenu">O General</a>
+				<a href="Wipro" class="submenu">Wipro</a>
+				<a href="Armstrong Celling's" class="submenu">Armstrong Celling's</a>
+				<a href="Teknolight" class="submenu">Teknolight</a>
+				<a href="RR Cabel" class="submenu">RR Cabel</a>
+				<a href="Bajaj Fans" class="submenu">Bajaj Fans</a>
+				<a href="CG Fans" class="submenu">CG Fans</a>
+				<a href="Northwest Switches" class="submenu">Northwest Switches</a>
+				<a href="Solar" class="submenu">Solar</a>
+			</div>
+        </div>
+			</div>
+			<div class="col-md-9">
+			<div class="nav">
+        	<a href="home.html" class="menu">Home</a>
+        	<a href="aboutus.html" class="menu">About Us</a>
+        	<!--<a href="Deal In" class="menu">Deal In</a>-->
+        	<a href="gallery.html" class="menu">Gallery</a>
+        	<a href="contactus.html" class="menu">Contact Us</a>
+        	<a href="Login" class="menu">Login</a>
+            <a href="Cart" class="menu"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+
+
+        </div>
+
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src=../js/jquery.js></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+</body>
+</html>
